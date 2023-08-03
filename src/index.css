@@ -1162,7 +1162,7 @@ min-height:calc(100vh - 62px);
   align-content:center;
   align-items: center;
   width: 100%;
-  height: 1000px;
+  height: 1300px;
   margin-top: 50px;
   padding: 50px;
 }
@@ -1177,4 +1177,5 @@ min-height:calc(100vh - 62px);
   width: 50%;
   line-height: 2;
   padding: 50px;
+  font-size: 18px;
 }
