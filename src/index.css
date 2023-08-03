@@ -1090,14 +1090,14 @@ min-height:calc(100vh - 62px);
   background: var(--white);
   border-radius: 10px;
   position: relative;
-  width:280px;
+  width:250px;
   height: 350px;
   padding: none;
   border: solid lightgray;
 }
 
 .single-testimonial p{
-  font-size: 15px;
+  font-size: 12px;
   padding: 10px;
   text-align: center;
   line-height: 1.2;
