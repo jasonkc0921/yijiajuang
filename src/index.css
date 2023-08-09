@@ -1360,7 +1360,7 @@ min-height:calc(100vh - 62px);
     content: "";
     width: 100%;
     position: absolute;
-    height: 800px;
+    height: 1000px;
     top: -20px;
     background-color: rgb(212, 175, 55);
     z-index: -2;
@@ -1371,7 +1371,7 @@ min-height:calc(100vh - 62px);
     position: relative;
     padding-top: 50px;
     padding-right: 10px;
-    margin: 80px 20px;
+    margin: 200px 10px
   }
 
   .popup-inner img {
