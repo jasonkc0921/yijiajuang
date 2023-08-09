@@ -13,7 +13,7 @@ export const Woods1 = () => {
         
     <section className='woods-container'>
 
-        <h2>What are our furnitures made of?</h2>
+        <h2>What are our furniture made of?</h2>
         {/* const [index, setIndex] = useState(0);
         const {id, image, title, info} = woods[index]; */}
 
