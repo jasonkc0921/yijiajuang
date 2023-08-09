@@ -277,7 +277,7 @@ main {
 
 .single-tour {
   margin-top: 30px;
-  margin-left: 70px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -395,6 +395,7 @@ main {
   align-items: center;
   width:100%;
   margin-top: 100px;
+  animation: fly-up 1s ease-in-out;
 }
 
 .wood-container {
@@ -406,6 +407,19 @@ main {
   background: none;
   margin-top: 50px;
 }
+
+
+@keyframes fly-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+
 
 .woods-container::before {
   /* content: ""; */
@@ -995,26 +1009,37 @@ min-height:calc(100vh - 62px);
   padding: none;
 }
 
-.partner_container {
+.partners_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-content: center; */
+  align-content: center;
   align-items: center;
   width: 100%;
 }
 
+.partner_container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  width: 80%;
+}
+
+
+
 .partner_slider {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:space-around;
   /* align-content: center; */
   align-items: center;
   width: 100%;
-  height: 350px; /* Adjust the slider height as needed */
-  margin-top: 10px;
+  height: 250px; /* Adjust the slider height as needed */
+  /* margin-top: 10px; */
   background-color: black;
   color: white;
+  padding: 20px 0;
   /* padding: 10px; */
 }
 
@@ -1064,6 +1089,10 @@ min-height:calc(100vh - 62px);
   align-items: center;
   width: 100%;
   padding: 20px;
+}
+
+.fly-up-animation {
+  animation: fly-up 1s ease-in-out;
 }
 
 .testimonial-title h2 {
@@ -1178,4 +1207,31 @@ min-height:calc(100vh - 62px);
   line-height: 2;
   padding: 50px;
   font-size: 15px;
+}
+
+
+.slick-container {
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  /* max-width: 1200px; */
+  text-align: center;
+}
+.slick-slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.icon {
+  color: rgb(94, 53, 11);
+}
+
+.slick-prev::before {
+  color: rgb(94, 53, 11) !important;
+}
+.slick-next::before {
+  color: rgb(94, 53, 11) !important;
 }
