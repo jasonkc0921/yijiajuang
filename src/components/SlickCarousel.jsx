@@ -20,6 +20,7 @@ const SlickCarousel = () => {
 
   return (
     <section className='slick-container'>
+    <h2>What do our customers say?</h2>
       <Slider {...settings}>
         {statements.map((person) => {
           const { id, image, name, statement } = person;

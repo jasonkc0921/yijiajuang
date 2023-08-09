@@ -1099,6 +1099,11 @@ min-height:calc(100vh - 62px);
   font-weight: 700;
 }
 
+.slick-container h2 {
+  font-weight: 700;
+  margin: 30px;
+}
+
 .testimonials {
   padding: 5rem 0rem;
   display: flex;
