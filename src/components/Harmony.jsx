@@ -101,4 +101,13 @@ margin-top: 250px;
     }
 
 }
+
+@media only screen and (max-width: 500px) {
+    .harmony-text {
+
+        width: 60%;
+        padding: 15px;
+
+    }
+}
 `
