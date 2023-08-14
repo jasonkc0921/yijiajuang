@@ -1,4 +1,4 @@
-export const data = [
+export const material = [
     {
       id: 1,
       image: './images/huanghuali_1.jpeg',
@@ -90,28 +90,28 @@ export const data = [
     id: 1,
     image: './images/statement_piece.png',
     title: 'Statement Pieces',
-    info: `Select a few standout antique furniture pieces as the focal points of your room. Examples could include a Chinese wedding cabinet, a Ming dynasty table, or an intricately carved wooden screen. Allow these items to take center stage and build the rest of the room around them.
+    info: `Select a few standout antique furniture pieces as the focal points of your room. Allow these items to take center stage and build the rest of the room around them.
 `,
   },
   {
     id: 2,
     image: './images/milimalist.png',
     title: 'Minimalist Backdrop',
-    info: `Keep the overall room design minimalistic to let the antique furniture shine. Use neutral colors for walls and floors to create a backdrop that allows the intricate details of the furniture to stand out.
+    info: `Combine diverse furniture styles fearlessly. Mix Chinese antiques with mid-century modern or industrial pieces for an exciting, character-filled space that transcends eras and cultures..
 `,
   },
   {
     id: 3,
     image: './images/contrast.png',
     title: 'Contrast with Modern Elements',
-    info: `Don't be afraid to mix and match furniture from different time periods and cultures. For example, combine Chinese antique pieces with mid-century modern furniture or industrial-style accents. This eclectic approach can be visually exciting and add character to your space.
+    info: `By harmoniously blending tradition and modernity, a distinct and captivating design emerges. This contrast not only adds visual intrigue but also highlights the intricate craftsmanship and cultural significance of traditional furniture.
 `,
   },
   {
     id: 4,
     image: './images/mix_match.png',
     title: 'Mix and Match Styles',
-    info: `Don't be afraid to mix and match furniture from different time periods and cultures. For example, combine Chinese antique pieces with mid-century modern furniture or industrial-style accents. This eclectic approach can be visually exciting and add character to your space.
+    info: `Combine diverse furniture styles fearlessly. Mix Chinese antiques with mid-century modern or industrial pieces for an exciting, character-filled space that transcends eras and cultures.
 `,
   },
   {
@@ -132,14 +132,22 @@ export const data = [
 
 export const pageLinks = [
   { id: 1, href: '/home', text: 'home' },
-  { id: 2, href: '/modern', text: 'Modern Integration' },
+  { id: 2, href: '/collections', text: 'Our Collections' },
   { id: 3, href: '/about', text: 'About Us' },
   // { id: 4, href: '/tours', text: 'tours' },
 ];
+
+export const links = [
+  { id: 1,  text: 'home', url: '/home' },
+  { id: 2,  text: 'Our Collections', url: '/collections' },
+  { id: 3,  text: 'About Us', url: '/about' },
+  // { id: 4, href: '/tours', text: 'tours' },
+];
+
 export const socialLinks = [
   { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook' },
   { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter' },
-  { id: 3, href: 'https://www.twitter.com', icon: 'fab fa-squarespace' },
+  // { id: 3, href: 'https://www.twitter.com', icon: 'fab fa-squarespace' },
 ];
 
 export const heroList = [
@@ -264,6 +272,29 @@ export const statements = [
   },
 ];
 
-export default data
+export const theme_list = [
+  {
+    id: 1,
+    image: '../images/living_room-1.png',
+    title: 'Living Room',
+  },
+  {
+    id: 2,
+    image: '../images/modern_dining-1.png',
+    title: 'Dining Room',
+  },
+  {
+    id: 3,
+    image: '../images/tea_corner-1.png',
+    title: 'Tea Room',
+  },
+  {
+    id: 4,
+    image: '../images/study_room-1.png',
+    title: 'Study Room',
+  },
+];
+
+export default material
 
 

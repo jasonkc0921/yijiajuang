@@ -1,24 +1,25 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import { Woods1 } from "../components/Woods1"
+import Hero_new from '../components/Hero_new';
 import { Collections } from "../components/Collections"
-import { Partners } from "../components/Partners"
 import Partners_new from "../components/Partners_new"
-import { Testimonials } from "../components/Testimonials"
+import { Integration } from "../components/Integration"
+import { Themes } from "../components/Themes"
 import SlickCarousel from "../components/SlickCarousel"
+import { Woods } from "../components/Woods"
+import { Harmony } from "../components/Harmony"
 import Footer from "../components/Footer"
 
 
 export const Landing = () => {
     return <div>
-    <Hero />
-    <Woods1 />
+    <Hero_new />
+    {/* <Woods1 />
     <Collections />
-    {/* <Partners /> */}
-    <Partners_new />
-    {/* <Testimonials /> */}
+    <Partners_new /> */}
+    <Integration />
+    <Themes />
+    <Woods />
+    <Harmony />
     <SlickCarousel />
-    <Footer />
     </div>;
   };

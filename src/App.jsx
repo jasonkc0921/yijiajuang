@@ -2,13 +2,8 @@
 // import { Loading } from "./Loading";
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Integration } from "./components/Integration"
-import { Woods1 } from "./components/Woods1"
 // import { Designs } from "./designs"
-import IrregularGrid from "./components/IrregularGrid"
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
 import { Home } from './pages/Home';
-import { Modern_integration } from './pages/Modern_integration';
 import { Landing } from './pages/Landing';
 import { About_us } from './pages/About_us';
 import 'leaflet/dist/leaflet.css';
@@ -28,10 +23,6 @@ const router = createBrowserRouter ([
       {
         path: '/home',
         element: <Landing/>,
-      },
-      {
-        path: '/modern',
-        element: <Modern_integration/>,
       },
       {
         path: '/about',
