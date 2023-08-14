@@ -103,5 +103,30 @@ const ThemeContainer = styled.nav`
 
 }
 
+@media only screen and (max-width: 760px) {
+
+    .theme-title {
+        font-size: 15px;
+    }
+    
+    .title-container {
+        width: 120px;
+        height: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+
+.theme-title {
+    font-size: 10px;          
+}
+        
+.title-container {
+    width: 80px;
+    height: 40px;
+}
+        
+}
 
 `

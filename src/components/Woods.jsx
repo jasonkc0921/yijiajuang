@@ -154,4 +154,15 @@ const WoodContainer = styled.nav`
 
 }
 
+@media only screen and (max-width: 500px) {
+
+  .w-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+    
+}
+
+}
+
 `
