@@ -115,7 +115,7 @@ const IntegrationContainer = styled.nav`
 @media only screen and (max-width: 500px) {
 
   .single-tour {
-    height: 350px;
+    height: 400px;
   }
 }
 
