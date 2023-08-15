@@ -61,7 +61,7 @@ const NavContainer = styled.nav`
     // position: fixed;
     // top: 0;
     // left: 0;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     // max-width: var(--max-width);
     font-weight: 500;
