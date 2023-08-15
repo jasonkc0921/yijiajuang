@@ -72,13 +72,7 @@ const HarmonyContainer = styled.nav`
     color: white;
 }
 
-@media only screen and (max-width: 920px) {
-margin-top: 250px;
-}
 
-.harmony-img {
-    object-fit: cover;
-  }
 
 @media only screen and (max-width: 920px) {
 

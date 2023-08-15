@@ -79,9 +79,7 @@ const SoothingContainer = styled.nav`
     color: white;
 }
 
-@media only screen and (max-width: 920px) {
-margin-top: 250px;
-}
+
 
 .soothing-img {
     object-fit: cover;
