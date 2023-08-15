@@ -115,6 +115,11 @@ const IntegrationContainer = styled.nav`
   .tours {
     width: 90%;
   }
+
+  .single-tour .img {
+    height: 3rem;
+    width: 7rem;
+
 }
 
 `
