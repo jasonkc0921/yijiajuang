@@ -126,6 +126,16 @@ const ThemeContainer = styled.nav`
     width: 80px;
     height: 40px;
 }
+
+.themes {
+
+    display:grid;
+    grid-template-columns: 100%;
+    grid-row: auto;
+    grid-row-gap: 20px;
+    width: 80%;
+
+}
         
 }
 
