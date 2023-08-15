@@ -63,7 +63,7 @@ const NavContainer = styled.nav`
     // left: 0;
     width: 80%;
     margin: 0 auto;
-    max-width: var(--max-width);
+    // max-width: var(--max-width);
     font-weight: 500;
   }
   .nav-header {
