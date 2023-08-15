@@ -78,7 +78,7 @@ const WoodContainer = styled.nav`
 }
 
 .wood-text{
-    width: 400px;
+    width: 300px;
     padding: 10px 10px;
     color: black;
     font-size: 40px;

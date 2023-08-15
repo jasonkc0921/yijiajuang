@@ -96,7 +96,7 @@ const NavContainer = styled.nav`
     height: 45px;
   }
 
-  @media (min-width: 550px) {
+  @media (min-width: 560px) {
     .nav-toggle {
       display: none;
     }
