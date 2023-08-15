@@ -50,12 +50,6 @@ const IntegrationContainer = styled.nav`
   width: 80%;
 }
 
-.tours {
-  padding: 5rem 0;
-  display: grid;
-  gap: 2rem;
-  width: 80%;
-}
 
 .single-tour {
   margin-top: 30px;
@@ -116,6 +110,10 @@ const IntegrationContainer = styled.nav`
 
   .single-tour {
     height: 300px;
+  }
+
+  .tours {
+    width: 90%;
   }
 }
 
