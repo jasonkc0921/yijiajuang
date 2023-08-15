@@ -46,8 +46,8 @@ const NavContainer = styled.nav`
   // justify-content: center;
 
 .nav-container {
-  position: fixed;
-  top: 0;
+  // position: relative;
+  // top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,10 +58,10 @@ const NavContainer = styled.nav`
 }
 
   .nav-center {
-    // position: fixed;
+    // position: absolute;
     // top: 0;
     // left: 0;
-    width: 100%;
+    width: 80%;
     // margin: 0 0;
     max-width: 300px;
     font-weight: 500;
@@ -104,7 +104,7 @@ const NavContainer = styled.nav`
       // position: fixed;
       // top: 0;
       // left: 0;
-      // display: grid;
+      display: grid;
       max-width: 500px;
       width: 80%;
       grid-template-columns: auto 1fr auto;
