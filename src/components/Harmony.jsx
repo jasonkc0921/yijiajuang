@@ -76,6 +76,9 @@ const HarmonyContainer = styled.nav`
 
 @media only screen and (max-width: 920px) {
 
+
+    margin-top: 250px;
+
     .harmony-text {
 
         width: 50%;
@@ -97,6 +100,9 @@ const HarmonyContainer = styled.nav`
 }
 
 @media only screen and (max-width: 500px) {
+
+    margin-top: 150px;
+
     .harmony-text {
 
         width: 80%;
