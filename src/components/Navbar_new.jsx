@@ -101,10 +101,10 @@ const NavContainer = styled.nav`
       display: none;
     }
     .nav-center {
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: grid;
+      // position: fixed;
+      // top: 0;
+      // left: 0;
+      // display: grid;
       max-width: 500px;
       width: 80%;
       grid-template-columns: auto 1fr auto;
