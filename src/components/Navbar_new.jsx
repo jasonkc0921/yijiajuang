@@ -40,10 +40,10 @@ const Navbar_new = () => {
 }
 
 const NavContainer = styled.nav`
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // height: 3rem;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 
 .nav-container {
   position: fixed;
@@ -61,7 +61,7 @@ const NavContainer = styled.nav`
     // position: fixed;
     // top: 0;
     // left: 0;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     // max-width: var(--max-width);
     font-weight: 500;
