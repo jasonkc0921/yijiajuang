@@ -46,8 +46,8 @@ const NavContainer = styled.nav`
   // justify-content: center;
 
 .nav-container {
-  // position: relative;
-  // top: 0;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +97,12 @@ const NavContainer = styled.nav`
   }
 
   @media (min-width: 560px) {
+
+    .nav-container {
+      position: absolute;
+      top: 0;
+    }
+
     .nav-toggle {
       display: none;
     }
