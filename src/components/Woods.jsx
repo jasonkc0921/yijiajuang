@@ -11,7 +11,7 @@ export const Woods = () => {
 
 
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 2000,
         slidesToShow: 3,
@@ -27,7 +27,7 @@ export const Woods = () => {
           <section className='wood-container'>
             <div className='text-container'>
               <div className='text-line'></div>
-              <div className='wood-text'>What Are We Made of?</div>
+              <h2 className='wood-text'>What Are We Made of?</h2>
               <div className='text-line'></div>
             </div>
             <div className='wood-display'>
@@ -40,7 +40,7 @@ export const Woods = () => {
                             <img src={image} alt={title} className='w-img' />
 
 
-                    <h5 className='name'>{title}</h5>
+                    <h6 className='name'>{title}</h6>
                   </article>
                 );
               })}
@@ -60,7 +60,7 @@ const WoodContainer = styled.nav`
     margin: 100px auto;
     width: 100%;
     height: 200px;
-    text-align: center;
+    // text-align: center;
     
 }
 
@@ -70,7 +70,7 @@ const WoodContainer = styled.nav`
     justify-content: left;
     align-context: left;
     align-item: left;
-    width: 30%;
+    width: 20%;
     height: 100%;
     // background-color: rgb(212, 175, 55);
     // margin-right: 30px;
@@ -78,12 +78,13 @@ const WoodContainer = styled.nav`
 }
 
 .wood-text{
-    width: 300px;
+    width: 400px;
     padding: 10px 10px;
     color: black;
     font-size: 40px;
     font-weight: 700;
     text-align: left;
+
 
 }
 
@@ -93,11 +94,13 @@ const WoodContainer = styled.nav`
     border-left: 1px solid;
     margin: 5px 0px 5px 10px;
     padding: 10px 10px;
+
 }
 
 .wood-display {
-    margin-top: 30px;
+    margin: 30px;
     max-width: 550px;
+    color: black;
 }
 
 .image-container {
@@ -111,6 +114,11 @@ const WoodContainer = styled.nav`
     height: 150px;
     border-radius: 0%;
     
+}
+
+.name {
+  color: black;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 920px) {

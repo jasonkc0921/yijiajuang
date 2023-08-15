@@ -70,7 +70,7 @@ const IntegrationContainer = styled.nav`
   transition: var(--transition);
   position: relative;
   width: 80%;
-  height: 350px;
+  height: 400px;
   padding: 20px;
 }
 
@@ -107,7 +107,7 @@ const IntegrationContainer = styled.nav`
 @media only screen and (max-width: 920px) {
 
 .single-tour {
-  height: 250px;
+  height: 350px;
 }
 
 }
@@ -115,7 +115,7 @@ const IntegrationContainer = styled.nav`
 @media only screen and (max-width: 500px) {
 
   .single-tour {
-    height: 400px;
+    height: 300px;
   }
 }
 

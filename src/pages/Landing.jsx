@@ -7,6 +7,7 @@ import { Themes } from "../components/Themes"
 import SlickCarousel from "../components/SlickCarousel"
 import { Woods } from "../components/Woods"
 import { Harmony } from "../components/Harmony"
+import { Soothing } from "../components/Soothing"
 import Footer from "../components/Footer"
 
 
@@ -20,6 +21,8 @@ export const Landing = () => {
     <Themes />
     <Woods />
     <Harmony />
+    <Partners_new />
+    <Soothing />
     <SlickCarousel />
     </div>;
   };
