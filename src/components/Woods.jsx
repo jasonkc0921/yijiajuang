@@ -89,7 +89,7 @@ const WoodContainer = styled.nav`
 }
 
 .text-line{
-    width: 600px;
+    width: 100%;
     height: 70%;
     border-left: 1px solid;
     margin: 5px 0px 5px 10px;
