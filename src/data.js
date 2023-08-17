@@ -139,7 +139,7 @@ export const pageLinks = [
 
 export const links = [
   { id: 1,  text: 'home', url: '/home' },
-  { id: 2,  text: 'Our Collections', url: '/collections' },
+  // { id: 2,  text: 'Our Collections', url: '/collections' },
   { id: 3,  text: 'About Us', url: '/about' },
   // { id: 4, href: '/tours', text: 'tours' },
 ];

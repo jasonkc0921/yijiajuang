@@ -1,7 +1,9 @@
 import React from 'react'
+import styled from 'styled-components'
 
 export const About = () => {
   return (
+    <AboutusContainer>
     <section className='about-container'>
     <div className='aboutus'>
         <div className='about-image'>
@@ -27,5 +29,50 @@ export const About = () => {
         </div>
     </div>
     </section>
+    </AboutusContainer>
   )
 }
+
+const AboutusContainer = styled.nav`
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 50px;
+  }
+  
+  .aboutus {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  
+  .about-text, .about-image {
+    width: 50%;
+    line-height: 2;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  @media only screen and (max-width: 760px) {
+
+    .aboutus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content:center;
+        align-items: center;
+        width: 100%;
+      }
+
+      .about-text, .about-image {
+        width: 100%;
+      }
+
+`

@@ -5,6 +5,6 @@ import { About } from "../components/About"
 export const About_us = () => {
     return <div>
     <About />
-    <Footer />
+    {/* <Footer /> */}
     </div>;
   };

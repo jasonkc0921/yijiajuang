@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from 'styled-components'
-import logo from '../images/logo1.svg'
+// import logo from '../images/logo1.svg'
 import { FaBars } from 'react-icons/fa'
 import { FaCrosshairs } from 'react-icons/fa'
 import { links } from '../data'
@@ -16,7 +16,7 @@ export const Navbar = () => {
         <div className="logo-nav">
           <div className="logo-container">
             <a href="#">
-            <img src={logo} className='logo' alt="yijiajuang" />
+            <img src="../images/Orientiques_logo.png" className='logo' alt="yijiajuang" />
             </a>
           </div>
   
@@ -79,8 +79,8 @@ const NavbarContainer = styled.nav`
     justify-content: center;
   }
   .logo {
-    width: 45px;
-    height: 45px;
+    width: 80px;
+    height: 80px;
   }
   .nav-options {
     padding-left: 25px;
