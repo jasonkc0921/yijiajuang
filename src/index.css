@@ -315,7 +315,7 @@ main {
 
 }
 
-.active {
+/* .active {
 
   background-color: var(--grey-800);
   width: 10px;
@@ -324,7 +324,7 @@ main {
   border-radius: 50%;
   transition: 1s ease-in-out all;
 
-}
+} */
 
 
 @keyframes fly-up {
@@ -1024,8 +1024,9 @@ min-height:calc(100vh - 62px);
   justify-content: space-between;
   width: 80%;
   /* max-width: 1200px; */
-  margin: 0 auto;
+  margin: 0px auto;
   z-index: -2;
+
 }
 
 .address,.contact {
@@ -1037,12 +1038,14 @@ min-height:calc(100vh - 62px);
   font-size: 20px;
   height: 180px;
   line-height: 2;
+  margin-top: 30px;
 }
 
 .office-map {
   width: 350px;
   height: 300px; /* Adjust the height of the map as needed */
   z-index: 1;
+  margin-top: 30px;
 }
 
 .about-container {

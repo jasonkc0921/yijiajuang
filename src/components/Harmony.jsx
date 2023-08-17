@@ -32,7 +32,7 @@ const HarmonyContainer = styled.nav`
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 800px;
 }
 
 .harmony {
@@ -97,6 +97,10 @@ const HarmonyContainer = styled.nav`
         color: white;
     }
 
+    .harmony-img {
+        object-fit: cover;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -108,6 +112,10 @@ const HarmonyContainer = styled.nav`
         width: 80%;
         padding: 15px;
 
+    }
+
+    .harmony-img {
+        object-fit: cover;
     }
 }
 `
