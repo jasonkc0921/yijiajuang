@@ -98,6 +98,7 @@ const NavbarContainer = styled.nav`
 
   .option {
     text-transform: capitalize;
+    color: black;
   }
   
   .option :hover {
@@ -149,18 +150,7 @@ const NavbarContainer = styled.nav`
       height: 10vw;
       padding: 30px 0px;
     }
-    .sign-up {
-      background: rgb(222, 9, 241);
-      border-radius: 3px;
-      color: white;
-      padding: 20px 0px;
-      width: 80%;
-      align-self: center;
-      border-radius: 3px;
-    }
-    .sign-up :hover {
-      opacity: 0.5;
-    }
+
     .mobile-menu {
       display: block;
     }
