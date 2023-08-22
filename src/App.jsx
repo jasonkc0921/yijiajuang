@@ -1,14 +1,9 @@
-// import { useEffect, useState } from "react";
-// import { Loading } from "./Loading";
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import { Integration } from "./components/Integration"
-// import { Designs } from "./designs"
 import { Home } from './pages/Home';
 import { Landing } from './pages/Landing';
 import { About_us } from './pages/About_us';
 import 'leaflet/dist/leaflet.css';
 
-const url = 'https://course-api.com/react-tours-project';
 
 const router = createBrowserRouter ([
   {
