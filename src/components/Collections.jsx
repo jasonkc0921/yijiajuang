@@ -110,5 +110,5 @@ const CollectionContainer = styled.nav`
   width: 80%;
 }
 
-
+}
 `
