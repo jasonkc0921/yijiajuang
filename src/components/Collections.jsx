@@ -111,7 +111,7 @@ const CollectionContainer = styled.nav`
 }
 
 .collection-title h2 {
-  font-weight: 500;
+  font-size: 2rem;
 }
 
 }
