@@ -110,5 +110,9 @@ const CollectionContainer = styled.nav`
   width: 80%;
 }
 
+.collection-title h2 {
+  font-weight: 500;
+}
+
 }
 `
