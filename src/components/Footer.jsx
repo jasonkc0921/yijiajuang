@@ -26,9 +26,8 @@ const Footer = () => {
         <div className='contact'>
           <h5>Reach Out to Us At</h5>
             <div>
-              <p>Tel:</p>
-              <p>Mobile:</p>
-              <p>Email:</p>
+              <p>Mobile: 012 267 0130</p>
+              <p>Email: jason.ortq@gmail.com</p>
             </div>
         </div>
         <div className='address'>

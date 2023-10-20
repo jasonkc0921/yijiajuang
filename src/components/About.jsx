@@ -7,7 +7,8 @@ export const About = () => {
     <section className='about-container'>
     <div className='aboutus'>
         <div className='about-image'>
-            <p>picture</p>
+            {/* <p>picture</p> */}
+            <img src="../images/about_us.jpg" alt="" />
         </div>
         <div className='about-text'>
         <p>
@@ -58,6 +59,11 @@ const AboutusContainer = styled.nav`
     line-height: 2;
     padding: 10px;
     font-size: 15px;
+  }
+
+  .about-image img {
+    width: 450px;
+    height: 900px;
   }
 
   @media only screen and (max-width: 760px) {
