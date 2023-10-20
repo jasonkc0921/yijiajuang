@@ -10,7 +10,7 @@ export const Integration = () => {
 <IntegrationContainer>
 <section>
   <div className='integration-title'>
-  <h2>Seamless Integration</h2>
+  {/* <h2>Seamless Integration</h2> */}
     <div className='tours'>
       {integrates.map((integrate)=>{
         const {id, image, title, info} = integrate;
@@ -35,17 +35,17 @@ export const Integration = () => {
 
 const IntegrationContainer = styled.nav`
 
-.integration-title::before {
-  content: "";
-  width: 100%;
-  height: 80px;
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  object-fit: fill;
-}
+// .integration-title::before {
+//   content: "";
+//   width: 100%;
+//   height: 80px;
+//   background-color: black;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: -1;
+//   object-fit: fill;
+// }
 
 .integration-title {
   display: flex;

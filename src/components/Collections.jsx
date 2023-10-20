@@ -63,6 +63,8 @@ const CollectionContainer = styled.nav`
   padding: 5rem 0rem;
   display: flex;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
   width: 80%;
 }
 
