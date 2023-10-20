@@ -196,19 +196,19 @@ export const heroList = [
 export const featured = [
   {
     id: 1,
-    image: './images/furniture1.jfif',
+    image: './images/livingroom_set1.jpg',
   },
   {
     id: 2,
-    image: './images/furniture2.jfif',
+    image: './images/dining_set1.jpg',
   },
   {
     id: 3,
-    image: './images/furniture3.jfif',
+    image: './images/tea_set1.jpg',
   },
   {
     id: 4,
-    image: './images/furniture4.jfif',
+    image: './images/arm_chair.jpg',
   },
 ];
 

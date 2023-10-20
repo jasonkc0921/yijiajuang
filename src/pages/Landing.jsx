@@ -14,15 +14,16 @@ import Footer from "../components/Footer"
 export const Landing = () => {
     return <div>
     <Hero_new />
-    {/* <Woods1 />
-    <Collections />
-    <Partners_new /> */}
+    {/* <Woods1 /> */}
+
+    {/* <Partners_new /> */}
     <Integration />
     <Themes />
     <Woods />
     <Harmony />
     <Partners_new />
     <Soothing />
-    <SlickCarousel />
+    <Collections />
+    {/* <SlickCarousel /> */}
     </div>;
   };
