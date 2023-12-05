@@ -125,8 +125,10 @@ const BlogsContainer = styled.nav`
         width: 100%;
       }
 
-      .blogs-text, .blogs-image {
-        width: 100%;
+      .img {
+        // width: 100%;
+        object-fit: cover;
       }
+
 
 `
