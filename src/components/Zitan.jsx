@@ -13,20 +13,26 @@ export const Zitan = () => {
         <div className='zitan-text'>
         <p>
             
-            Welcome to our esteemed showroom, where we proudly present a curated collection of Chinese traditional furniture crafted with the exquisite zitan wood. As connoisseurs of fine craftsmanship and cultural heritage, we are dedicated to preserving the timeless allure of this rare and precious material.
+        Zitan wood is highly regarded as one of the most valuable and sought-after materials for furniture due to its exceptional durability, beautiful grain patterns, and rich, dark colors. However, to ensure the longevity and beauty of your furniture made with zitan wood, proper care is essential.
         </p><br/>
         <p>
-            Zitan wood, renowned as the "purple sandalwood," is at the heart of our offerings. Its unique deep purple or brownish-black hue, complemented by its fine and smooth texture, exudes an air of opulence and sophistication. The rich color and natural luster of zitan wood make each piece a breathtaking masterpiece.
+        In this article, we will provide you with detailed instructions on how to take care of furniture made with zitan wood, offering maintenance tips, cleaning guidelines, and protective measures.
         </p><br/>
+
+        <ul>
+          <li>Regular Dusting To prevent the buildup of dust and debris on your zitan wood furniture, regular dusting should be performed. Use a soft, lint-free cloth or a feather duster to gently remove any surface dust. Avoid using rough fabrics or abrasive materials as they may scratch the wood.</li>
+          <li>Avoid Direct Sunlight and Extreme Temperatures Zitan wood is susceptible to damage from direct sunlight and extreme temperatures. Prolonged exposure to sunlight can cause the wood to fade and lose its original color. It is advisable to position your furniture away from windows or use curtains or blinds to protect it from direct sunlight</li>
+          <li> Moisture Control Excessive moisture can damage zitan wood furniture. To maintain its proper moisture balance and prevent warping or cracking, it is important to control the humidity levels in your home. Avoid placing zitan wood furniture in areas prone to moisture, such as bathrooms or basements. Use a dehumidifier in humid environments to regulate the moisture levels.</li>
+          <li>Cleaning Guidelines When it comes to cleaning zitan wood furniture, it is crucial to use mild and non-abrasive cleaning solutions. Follow these steps to clean your furniture properly: - Mix a small amount of mild soap or furniture cleaner with water. - Dip a soft cloth into the solution, ensuring it is not soaking wet. - Gently clean the surface of the furniture, following the grain patterns. - Avoid excessive scrubbing or applying too much pressure. - After cleaning, wipe the furniture with a clean, damp cloth to remove any soap residue. - Finally, dry the surface thoroughly with a soft, dry cloth. Avoid using strong chemicals, vinegar, or ammonia-based cleaners, as they can damage the protective finish and the wood itself. Always test any cleaning solution on a small, inconspicuous area before applying it to the entire furniture piece.</li>
+        <li>Polishing and Protection To maintain the luster and protect the zitan wood furniture, occasional polishing is recommended. Follow these steps for effective polishing: - Use a high-quality, non-silicone-based furniture polish or wax. - Apply a small amount of polish to a soft cloth. - Gently rub the polish onto the wood, following the grain patterns. - Allow the polish to dry according to the manufacturer's instructions. - After drying, buff the surface with a clean, soft cloth to bring out the shine. Regular polishing will help to restore and enhance the natural beauty of the zitan wood, while also providing a protective layer against daily wear and tear.</li>
+        <li>Avoid Harsh Impact and Weight Zitan wood is known for its solid and resilient nature. However, it is important to avoid subjecting the furniture to harsh impacts or excessive weight. Prevent scratches, dents, or cracks by using protective pads or coasters under heavy objects. Lift and move furniture rather than dragging it across the floor to avoid scratches or damage to the wood.</li>
+        <li>Professional Maintenance For extensive damage or intricate restoration work, it is advisable to seek professional assistance. Experienced furniture restorers specialize in working with valuable wood materials like zitan and can provide necessary repairs, refinishing, or maintenance services.</li>
+        </ul>
+
         <p>
-        Our artisans, well-versed in centuries-old woodworking techniques, meticulously transform zitan wood into heirloom-worthy furniture. Each stroke of their chisels, every intricate inlay, and precisely carved detail narrate a story of Chinese heritage and artistry.
+        Taking care of furniture made with zitan wood requires regular maintenance, protective measures, gentle cleaning practices, and avoidance of harsh conditions. By following the guidelines provided in this article, you can ensure that your zitan wood furniture remains beautiful, durable, and an heirloom to be cherished for generations to come.
         </p><br/>
-        <p>
-            Stepping into our showroom, you will discover an array of remarkable pieces, including intricately carved cabinets, opulent screens, elegant chairs, and resplendent tables. Whether you seek a statement piece or an exquisite addition to your home, our diverse selection caters to discerning collectors and enthusiasts alike.
-        </p><br/>
-        <p>
-            Embrace the elegance and cultural significance of Chinese traditional furniture with our zitan wood creations. Each piece not only adds a touch of grandeur to your living space but also connects you to the legacy of an ancient craft, preserved for generations to come. Welcome to a world where the past and present seamlessly blend, and where the legacy of zitan wood lives on through timeless masterpieces.
-        </p>
+       
         </div>
     </div>
     </section>
