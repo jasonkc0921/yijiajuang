@@ -38,7 +38,7 @@ const ZitanContainer = styled.nav`
 
 .zitan-container {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-content:center;
     align-items: center;
