@@ -318,7 +318,7 @@ export const blogposts = [
     title: 'taking care of furniture made with zitan wood',
     info: `Zitan wood is highly regarded as one of the most valuable and sought-after materials for furniture due to its exceptional durability, beautiful grain patterns, and rich, dark colors. However, to ensure the longevity and beauty of your furniture made with zitan wood, proper care is essential.
 `,
-    url: 'https://www.orientiques.online/blog/take_care_of_zitan_furniture',
+    url: 'blog/take_care_of_zitan_furniture',
   },
 //   {
 //     id: 4,
