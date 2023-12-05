@@ -3,14 +3,14 @@ import styled from 'styled-components'
 
 export const Zitan = () => {
   return (
-    <AboutusContainer>
-    <section className='about-container'>
-    <div className='aboutus'>
-        <div className='about-image'>
+    <ZitanContainer>
+    <section className='zitan-container'>
+    <div className='zitanus'>
+        <div className='zitan-image'>
             {/* <p>picture</p> */}
-            <img src="../images/about_us.jpg" alt="" />
+            <img src="../images/blog3.jpg" alt="" />
         </div>
-        <div className='about-text'>
+        <div className='zitan-text'>
         <p>
             
             Welcome to our esteemed showroom, where we proudly present a curated collection of Chinese traditional furniture crafted with the exquisite zitan wood. As connoisseurs of fine craftsmanship and cultural heritage, we are dedicated to preserving the timeless allure of this rare and precious material.
@@ -30,13 +30,13 @@ export const Zitan = () => {
         </div>
     </div>
     </section>
-    </AboutusContainer>
+    </ZitanContainer>
   )
 }
 
-const AboutusContainer = styled.nav`
+const ZitanContainer = styled.nav`
 
-.about-container {
+.zitan-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,27 +48,27 @@ const AboutusContainer = styled.nav`
     padding: 50px;
   }
   
-  .aboutus {
+  .zitanus {
     display: flex;
     justify-content: center;
     width: 80%;
   }
   
-  .about-text, .about-image {
+  .zitan-text, .zitan-image {
     width: 50%;
     line-height: 2;
     padding: 10px;
     font-size: 15px;
   }
 
-  .about-image img {
+  .zitan-image img {
     width: 450px;
     height: 900px;
   }
 
   @media only screen and (max-width: 760px) {
 
-    .aboutus {
+    .zitanus {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -77,7 +77,7 @@ const AboutusContainer = styled.nav`
         width: 100%;
       }
 
-      .about-text, .about-image {
+      .zitan-text, .zitan-image {
         width: 100%;
       }
 
