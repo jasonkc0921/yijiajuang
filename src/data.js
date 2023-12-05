@@ -312,13 +312,14 @@ export const blogposts = [
 `,
     url: 'https://www.houzz.com/magazine/east-meets-west-adding-asian-design-to-a-modern-home-stsetivw-vs~743',
   },
-//   {
-//     id: 3,
-//     image: './images/contrast.png',
-//     title: 'Contrast with Modern Elements',
-//     info: `By harmoniously blending tradition and modernity, a distinct and captivating design emerges. This contrast not only adds visual intrigue but also highlights the intricate craftsmanship and cultural significance of traditional furniture.
-// `,
-//   },
+  {
+    id: 3,
+    image: './images/blog3.jpg',
+    title: 'taking care of furniture made with zitan wood',
+    info: `Zitan wood is highly regarded as one of the most valuable and sought-after materials for furniture due to its exceptional durability, beautiful grain patterns, and rich, dark colors. However, to ensure the longevity and beauty of your furniture made with zitan wood, proper care is essential.
+`,
+    url: 'https://www.orientiques.online/blog/take_care_of_zitan_furniture',
+  },
 //   {
 //     id: 4,
 //     image: './images/mix_match.png',
