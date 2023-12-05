@@ -5,7 +5,7 @@ export const Zitan = () => {
   return (
     <ZitanContainer>
     <section className='zitan-container'>
-    <div className='zitanus'>
+    <div className='zitan'>
         <div className='zitan-image'>
             {/* <p>picture</p> */}
             <img src="../images/blog3.jpg" alt="" />
@@ -38,7 +38,7 @@ const ZitanContainer = styled.nav`
 
 .zitan-container {
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-content:center;
     align-items: center;
@@ -48,7 +48,7 @@ const ZitanContainer = styled.nav`
     padding: 50px;
   }
   
-  .zitanus {
+  .zitan {
     display: flex;
     justify-content: center;
     width: 80%;
