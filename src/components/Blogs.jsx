@@ -67,8 +67,8 @@ const BlogsContainer = styled.nav`
   
   
   .single-blog {
-    margin-top: 30px;
-    margin-left: 20px;
+    // margin-top: 30px;
+    // margin-left: 20px;
     display: flex;
     flex-direction: column;
     // align-content: center;
