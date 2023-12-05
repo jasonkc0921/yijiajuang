@@ -50,6 +50,7 @@ const ZitanContainer = styled.nav`
   
   .zitan {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 80%;
   }
