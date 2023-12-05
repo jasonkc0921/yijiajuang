@@ -30,6 +30,11 @@ const router = createBrowserRouter ([
         element: <Blog/>,
         children: [
           {
+            // path: '/home',
+            index: true,
+            element: <Blog/>,
+          },
+          {
             path: '/blog/take_care_of_zitan_furniture',
             element: <Zitanwood/>,
           },
