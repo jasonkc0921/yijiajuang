@@ -63,8 +63,8 @@ const ZitanContainer = styled.nav`
   }
 
   .zitan-image img {
-    width: 450px;
-    height: 900px;
+    width: 100%;
+    // height: 900px;
   }
 
   @media only screen and (max-width: 760px) {
