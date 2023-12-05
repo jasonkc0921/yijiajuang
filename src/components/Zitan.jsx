@@ -56,7 +56,7 @@ const ZitanContainer = styled.nav`
   }
   
   .zitan-text, .zitan-image {
-    width: 50%;
+    width: 100%;
     line-height: 2;
     padding: 10px;
     font-size: 15px;
