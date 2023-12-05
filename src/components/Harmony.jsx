@@ -68,7 +68,7 @@ const HarmonyContainer = styled.nav`
 .harmony-text p {
     opacity: 100%;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 1rem;
     color: white;
 }
 
