@@ -130,5 +130,5 @@ const BlogsContainer = styled.nav`
         object-fit: cover;
       }
 
-
+    }
 `
