@@ -128,7 +128,7 @@ const BlogsContainer = styled.nav`
     .img {
         // width: 100%;
         object-fit: cover;
-        width: 30%
+        // width: 30%
     }
 
   }
