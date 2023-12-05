@@ -27,8 +27,8 @@ export const Zitan = () => {
         <li>Polishing and Protection To maintain the luster and protect the zitan wood furniture, occasional polishing is recommended. Follow these steps for effective polishing: - Use a high-quality, non-silicone-based furniture polish or wax. - Apply a small amount of polish to a soft cloth. - Gently rub the polish onto the wood, following the grain patterns. - Allow the polish to dry according to the manufacturer's instructions. - After drying, buff the surface with a clean, soft cloth to bring out the shine. Regular polishing will help to restore and enhance the natural beauty of the zitan wood, while also providing a protective layer against daily wear and tear.</li>
         <li>Avoid Harsh Impact and Weight Zitan wood is known for its solid and resilient nature. However, it is important to avoid subjecting the furniture to harsh impacts or excessive weight. Prevent scratches, dents, or cracks by using protective pads or coasters under heavy objects. Lift and move furniture rather than dragging it across the floor to avoid scratches or damage to the wood.</li>
         <li>Professional Maintenance For extensive damage or intricate restoration work, it is advisable to seek professional assistance. Experienced furniture restorers specialize in working with valuable wood materials like zitan and can provide necessary repairs, refinishing, or maintenance services.</li>
-        </ol>
-
+        </ol><br/>
+        <br/>
         <p>
         Taking care of furniture made with zitan wood requires regular maintenance, protective measures, gentle cleaning practices, and avoidance of harsh conditions. By following the guidelines provided in this article, you can ensure that your zitan wood furniture remains beautiful, durable, and an heirloom to be cherished for generations to come.
         </p><br/>
