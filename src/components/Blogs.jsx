@@ -85,8 +85,8 @@ const BlogsContainer = styled.nav`
   // }
 
   .single-blog .img {
-    height: 12rem;
-    width: 24rem;
+    // height: 12rem;
+    width: 100%;
     border: none;
     border-top-right-radius: var(--borderRadius);
     border-top-left-radius: var(--borderRadius);
@@ -123,12 +123,13 @@ const BlogsContainer = styled.nav`
         align-content:center;
         align-items: center;
         width: 100%;
-      }
+    }
 
-      .img {
+    .img {
         // width: 100%;
         object-fit: cover;
-      }
-
+        width: 30%
     }
+
+  }
 `
