@@ -110,7 +110,7 @@ const ZitanContainer = styled.nav`
         justify-content: center;
         align-content:center;
         align-items: center;
-        width: 100%;
+        width: 800%;
       }
 
       .zitan-text, .zitan-image {
