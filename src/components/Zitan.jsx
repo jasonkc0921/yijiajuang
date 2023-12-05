@@ -8,7 +8,7 @@ export const Zitan = () => {
     <div className='zitan'>
         <div className='zitan-image'>
             {/* <p>picture</p> */}
-            <img src="../images/blog3.jpg" alt="" />
+            <img src="../images/zitan_care.png" alt="a hand cleaning the surface of a zitan furniture" />
         </div>
         <div className='zitan-text'>
         <p>
