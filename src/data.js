@@ -134,14 +134,14 @@ export const pageLinks = [
   { id: 1, href: '/home', text: 'home' },
   { id: 2, href: '/collections', text: 'Our Collections' },
   { id: 3, href: '/about', text: 'About Us' },
-  // { id: 4, href: '/tours', text: 'tours' },
+  { id: 4, href: '/blogs', text: 'blogs' },
 ];
 
 export const links = [
   { id: 1,  text: 'home', url: '/home' },
   // { id: 2,  text: 'Our Collections', url: '/collections' },
-  { id: 3,  text: 'About Us', url: '/about' },
-  // { id: 4, href: '/tours', text: 'tours' },
+  { id: 2,  text: 'About Us', url: '/about' },
+  { id: 3,  text: 'Blogs', url: '/blog' },
 ];
 
 export const socialLinks = [
@@ -293,6 +293,53 @@ export const theme_list = [
     image: '../images/study_room-1.png',
     title: 'Study Room',
   },
+];
+
+export const blogposts = [
+  {
+    id: 1,
+    image: './images/blog1.png',
+    title: '3 EXQUISITE MODERN ORIENTAL INTERIORS FOR THE ASIAN IN YOU',
+    info: `Modern oriental interior design is likely to become another popular interior design style especially for aficionados who own inherited antique furniture and cultural vintage collectibles. It is also ideal for homeowners who might want to steer away from a cliché cookie-cutter modern home and wish to incorporate interior elements of other cultures or time periods into their home interior design!
+`,
+    url: 'https://www.theinteriorlab.com.sg/3-exquisite-modern-oriental-interiors-for-the-asian-in-you/',
+  },
+  {
+    id: 2,
+    image: './images/blog2.png',
+    title: 'East Meets West: Adding Asian Design to a Modern Home Backdrop',
+    info: `Many people living in the United States and Europe are really interested in a different way of life - one that comes to us from the Far East. We take yoga classes and wear Asian-print fabrics and find ourselves longing for the kind of spirituality that emanates from another part of the world.
+`,
+    url: 'https://www.houzz.com/magazine/east-meets-west-adding-asian-design-to-a-modern-home-stsetivw-vs~743',
+  },
+//   {
+//     id: 3,
+//     image: './images/contrast.png',
+//     title: 'Contrast with Modern Elements',
+//     info: `By harmoniously blending tradition and modernity, a distinct and captivating design emerges. This contrast not only adds visual intrigue but also highlights the intricate craftsmanship and cultural significance of traditional furniture.
+// `,
+//   },
+//   {
+//     id: 4,
+//     image: './images/mix_match.png',
+//     title: 'Mix and Match Styles',
+//     info: `Combine diverse furniture styles fearlessly. Mix Chinese antiques with mid-century modern or industrial pieces for an exciting, character-filled space that transcends eras and cultures.
+// `,
+//   },
+//   {
+//     id: 5,
+//     image: './images/chinese_art.jpeg',
+//     title: 'Chinese Art and Decor',
+//     info: `Enhance the ambiance by adding traditional Chinese art, such as calligraphy scrolls, paintings, or porcelain vases, to the decor. This will reinforce the Chinese aesthetic and create a cohesive look.
+// `,
+//   },
+//   {
+//     id: 6,
+//     image: './images/lighting.png',
+//     title: 'Lighting',
+//     info: `Choose lighting fixtures that complement the antique furniture. Chinese lantern-style pendant lights or traditional lamps can add an authentic touch while still feeling contemporary.
+// `,
+//   },
 ];
 
 export default material

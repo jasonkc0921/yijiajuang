@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Home } from './pages/Home';
 import { Landing } from './pages/Landing';
 import { About_us } from './pages/About_us';
+import { Blog } from './pages/Blog';
 import 'leaflet/dist/leaflet.css';
 
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter ([
       {
         path: '/about',
         element: <About_us/>,
+      },
+      {
+        path: '/blog',
+        element: <Blog/>,
       },
     ]
   },
