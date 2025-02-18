@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Home } from './pages/Home';
 import { Landing } from './pages/Landing';
 import { About_us } from './pages/About_us';
+import { Privacy } from './pages/Privacy';
 import { Zitanwood } from './pages/Take_care_of_zitan_furniture';
 import { Blog } from './pages/Blog';
 import 'leaflet/dist/leaflet.css';
@@ -24,6 +25,10 @@ const router = createBrowserRouter ([
       {
         path: '/about',
         element: <About_us/>,
+      },
+      {
+        path: '/privacy',
+        element: <Privacy/>,
       },
       {
         path: '/blog',
