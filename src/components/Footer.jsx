@@ -4,6 +4,9 @@ import L from 'leaflet';
 
 const Footer = () => {
   const mapRef = useRef(null);
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   useEffect(() => {
     if (!mapRef.current) {
@@ -29,10 +32,10 @@ const Footer = () => {
               <p>Mobile: 012 267 0130</p>
               <p>Email: jason.ortq@gmail.com</p>
             </div>
-            <div>
-            <a href="https://www.orientiques.online/privacy" onClick={(e) => e.stopPropagation()}>
+            <div >
+            <Link to="https://www.orientiques.online/privacy" onClick={closeMobileMenu}>
                 Our Privacy Policy
-            </a>
+            </Link>
             </div>
         </div>
         <div className='address'>
