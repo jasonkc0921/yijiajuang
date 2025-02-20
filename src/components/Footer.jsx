@@ -33,10 +33,11 @@ const Footer = () => {
               <p>Mobile: 012 267 0130</p>
               <p>Email: jason.ortq@gmail.com</p>
             </div>
-            <div onClick={closeMobileMenu}>
-            <Link to='/privacy'>
-                Our Privacy Policy
-            </Link>
+            <div>
+              <a href="/privacy">Our Privacy Policy</a>
+            // <Link to='/privacy'>
+            //     Our Privacy Policy
+            // </Link>
             </div>
         </div>
         <div className='address'>
