@@ -35,9 +35,6 @@ const Footer = () => {
             </div>
             <div>
               <a href="/privacy">Our Privacy Policy</a>
-            // <Link to='/privacy'>
-            //     Our Privacy Policy
-            // </Link>
             </div>
         </div>
         <div className='address'>
