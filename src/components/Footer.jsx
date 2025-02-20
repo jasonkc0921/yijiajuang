@@ -34,7 +34,9 @@ const Footer = () => {
               <p>Email: jason.ortq@gmail.com</p>
             </div>
             <div>
-              <a href="/privacy">Our Privacy Policy</a>
+              <Link to="/privacy" onClick={closeMobileMenu}>
+                Our Privacy Policy
+              </Link>
             </div>
         </div>
         <div className='address'>
