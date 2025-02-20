@@ -1046,6 +1046,7 @@ min-height:calc(100vh - 62px);
 
   .footer {
     height: 800px;
+    z-index: 10;
   }
 
   .footer-content {
