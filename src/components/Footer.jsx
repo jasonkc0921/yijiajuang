@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components'
 import L from 'leaflet';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const mapRef = useRef(null);
