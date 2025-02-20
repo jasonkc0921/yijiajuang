@@ -33,8 +33,8 @@ const Footer = () => {
               <p>Mobile: 012 267 0130</p>
               <p>Email: jason.ortq@gmail.com</p>
             </div>
-            <div >
-            <Link to="https://www.orientiques.online/privacy" onClick={closeMobileMenu}>
+            <div onClick={closeMobileMenu}>
+            <Link to="https://www.orientiques.online/privacy">
                 Our Privacy Policy
             </Link>
             </div>
