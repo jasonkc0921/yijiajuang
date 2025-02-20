@@ -961,6 +961,7 @@ min-height:calc(100vh - 62px);
   padding: 30px;
   text-align: center;
   height: 450px;
+  color: white;
   /* z-index: -2; */
 }
 
@@ -970,6 +971,7 @@ min-height:calc(100vh - 62px);
   width: 80%;
   /* max-width: 1200px; */
   margin: 0px auto;
+  color: white;
   /* z-index: -2; */
 
 }
