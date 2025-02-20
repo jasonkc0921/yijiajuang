@@ -30,7 +30,7 @@ const Footer = () => {
               <p>Email: jason.ortq@gmail.com</p>
             </div>
             <div>
-              <a href="https://orientiques.online/privacy">Our Privacy Policy</a>
+              <a href="https://www.orientiques.online/privacy">Our Privacy Policy</a>
             </div>
         </div>
         <div className='address'>
