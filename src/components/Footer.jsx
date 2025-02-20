@@ -29,6 +29,9 @@ const Footer = () => {
               <p>Mobile: 012 267 0130</p>
               <p>Email: jason.ortq@gmail.com</p>
             </div>
+            <div>
+            <a href="https://orientiques,online/privacy">Our Privacy Policy</a>
+            </div>
         </div>
         <div className='address'>
           <h5>Visit Us At</h5>
