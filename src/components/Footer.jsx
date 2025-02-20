@@ -30,7 +30,9 @@ const Footer = () => {
               <p>Email: jason.ortq@gmail.com</p>
             </div>
             <div>
-              <a href="https://www.orientiques.online/privacy" target="_blank" rel="noopener noreferrer">Our Privacy Policy</a>
+            <a href="https://www.orientiques.online/privacy" onClick={(e) => e.stopPropagation()}>
+                Our Privacy Policy
+            </a>
             </div>
         </div>
         <div className='address'>
