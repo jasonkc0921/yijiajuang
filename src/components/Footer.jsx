@@ -33,11 +33,7 @@ const Footer = () => {
               <p>Mobile: 012 267 0130</p>
               <p>Email: jason.ortq@gmail.com</p>
             </div>
-            <div>
-              <Link to="/privacy" onClick={closeMobileMenu}>
-                Our Privacy Policy
-              </Link>
-            </div>
+
         </div>
         <div className='address'>
           <h5>Visit Us At</h5>
@@ -48,6 +44,11 @@ const Footer = () => {
           </div>
         </div>
         <div id="office-map" className="office-map" />
+      </div>
+      <div>
+          <Link to="/privacy" onClick={closeMobileMenu}>
+            Our Privacy Policy
+          </Link>
       </div>
     </footer>
   );
