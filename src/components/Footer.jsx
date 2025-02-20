@@ -34,7 +34,7 @@ const Footer = () => {
               <p>Email: jason.ortq@gmail.com</p>
             </div>
             <div onClick={closeMobileMenu}>
-            <Link to="https://www.orientiques.online/privacy">
+            <Link to='/privacy'>
                 Our Privacy Policy
             </Link>
             </div>
