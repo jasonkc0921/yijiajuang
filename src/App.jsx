@@ -55,7 +55,17 @@ const router = createBrowserRouter ([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />
+  return (
+    <>
+      <RouterProvider router={router} />
+      {/* WhatsApp Chat Button (appears on all pages) */}
+      <WhatsAppChat 
+        phoneNumber="1234567890" // Replace with your actual WhatsApp number
+        companyName="Your Company" // Replace with your company name
+      />
+    </>
+  );
+  // return (<RouterProvider router={router} />
   // const [isLoading, setIsLoading] = useState(true)
   // const [tours, setTours] = useState([])
 
