@@ -6,6 +6,7 @@ import { Privacy_us } from './pages/Privacy_us';
 import { Zitanwood } from './pages/Take_care_of_zitan_furniture';
 import { Blog } from './pages/Blog';
 import 'leaflet/dist/leaflet.css';
+import WhatsAppChat from "./components/WhatsAppChat";
 
 
 const router = createBrowserRouter ([
