@@ -62,7 +62,7 @@ const App = () => {
       {/* WhatsApp Chat Button (appears on all pages) */}
       <WhatsAppChat 
         phoneNumber="1234567890" // Replace with your actual WhatsApp number
-        companyName="Your Company" // Replace with your company name
+        companyName="Orientiques Enterprise" // Replace with your company name
       />
     </>
   );
