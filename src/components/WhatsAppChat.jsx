@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
 
-const WhatsAppChat = ({ phoneNumber = '1234567890', companyName = 'Company Name' }) => {
+const WhatsAppChat = ({ phoneNumber = '1234567890', companyName = 'Orientiques Enterprise' }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState('');
 
