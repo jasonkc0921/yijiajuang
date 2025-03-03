@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './WhatsAppChat.css';
 import styled from 'styled-components'
 
-const WhatsAppChat = ({ phoneNumber = '1234567890', companyName = 'Company Name' }) => {
+export const WhatsAppChat = ({ phoneNumber = '1234567890', companyName = 'Company Name' }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState('');
 
@@ -76,8 +76,6 @@ const WhatsAppChat = ({ phoneNumber = '1234567890', companyName = 'Company Name'
     </WhatsappContainer>
   );
 };
-
-export default WhatsAppChat;
 
 const WhatsappContainer = styled.nav`
 
